@@ -109,13 +109,13 @@ git reflog 这个指令可以看到已经删除的提交记录
 
 git log查看提交日志，显示有两次提交，分别为”first commit“和"second commit"
 
-![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175639191.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175519040.png))
 
-现在test文件内容为![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175937032.png)
+现在test文件内容为![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175639191.png))
 
 现在通过版本回退到第一次提交的文件中
 
-![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722183619490.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175937032.png)
 
 现在已经把test.txt文件回退到第一次提交的时候了，vi test.txt可看到就是第一次提交时的结果.。
 
@@ -151,11 +151,11 @@ git log查看提交日志，显示有两次提交，分别为”first commit“�
 
   git branch -D b1 不做任何检查，强制删除
 
-![image-20230722183619490](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722183619490.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722183619490.png)
 
-![image-20230722183920957](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722183920957.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722183920957.png)
 
-![image-20230722184358170](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722184358170.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722184358170.png)
 
 ## 远程仓库
 
@@ -167,7 +167,7 @@ git log查看提交日志，显示有两次提交，分别为”first commit“�
 
 因为GitHub在国内访问速度比较慢，我们现在使用Gitee来搭建远程仓库
 
-<img src="C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722185012226.png" alt="image-20230722185012226" style="zoom: 50%;" />
+<img src="https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722185012226.png" alt="image-20230722185012226" style="zoom: 50%;" />
 
 ### 配置公钥
 
@@ -183,7 +183,7 @@ git log查看提交日志，显示有两次提交，分别为”first commit“�
 
 打开gitee的设置找到SSH公钥
 
-![image-20230722185713012](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722185713012.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722185713012.png)
 
 ### 操作远程仓库
 
@@ -195,7 +195,7 @@ git log查看提交日志，显示有两次提交，分别为”first commit“�
 
 仓库路径，从远端服务器获取此URL
 
-![image-20230722190028742](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722190028742.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722190028742.png)
 
 **查看远程仓库**
 
@@ -233,6 +233,6 @@ git log查看提交日志，显示有两次提交，分别为”first commit“�
 * 拉取指令就是将远端仓库的修改拉到本地并自动进行合并，等同于fetch+merge 
 * 如果不指定远端名称和分支名，则抓取所有并更新当前分支。
 
-![image-20230722191615093](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722191615093.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722191615093.png)
 
-​     ![image-20230722191705610](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722191705610.png)
+​     ![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722191705610.png)
