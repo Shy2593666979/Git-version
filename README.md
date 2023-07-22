@@ -14,9 +14,9 @@ Git是一个开源的[分布式](https://baike.baidu.com/item/分布式/19276232
 
 ![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722202013369.png)
 
-**ps：**下载Git是在GitHub平台下载的，需要科学上网
+**ps：** 下载Git是在GitHub平台下载的，需要科学上网
 
-![image-20230722171351870](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722171351870.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722171351870.png)
 
 安装Git后右键桌面可显示 Git Bash 和 Git GUI
 
@@ -44,8 +44,7 @@ git config user.email
 
 查看是否配置完成
 
-![image-20230722172636569](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722172636569.png)
-
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722172636569.png)
 ## Git基础操作指令
 
 ### Git获得本地仓库 
@@ -58,13 +57,13 @@ git config user.email
 
 4）如果创建成功后可在文件夹下看到隐藏的.git目录。
 
-![image-20230722173356363](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722173356363.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722173356363.png)
 
-**ps：**需要执行ls -al才能查看隐藏文件
+**ps：** 需要执行ls -al才能查看隐藏文件
 
 
 
-![image-20230722173506827](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722173506827.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722173506827.png)
 
 
 ### 提交文件
@@ -77,11 +76,10 @@ git commit (暂存区 --> 本地仓库)
 
 首先在git_test01文件夹中创建test.txt文件，现在已经是在工作区，通过git add进入暂存区（git add . 代表提交当前文件夹），看看test文件状态
 
-![image-20230722173844722](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722173844722.png)
-
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722173844722.png)
 现在已经显示test.txt文件已经进去暂存区, git commit -m "注释"提交到本地仓库，再次查看文件状态
 
-![image-20230722174309090](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722174309090.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722174309090.png)
 
 commit -m中的-m可有可无，如果没有加 -m的话，commit后也得进去编辑器进行注释
 
@@ -91,7 +89,7 @@ commit -m中的-m可有可无，如果没有加 -m的话，commit后也得进去
 
 ### 查看提交日志
 
-![img](file:///C:\Users\枯木逢春i\AppData\Roaming\Tencent\Users\2593666979\QQ\WinTemp\RichOle\{JLQ@G]RGIV0]PLTVPXUKG6.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175519040.png)
 
 ### 版本回退
 
@@ -111,13 +109,13 @@ git reflog 这个指令可以看到已经删除的提交记录
 
 git log查看提交日志，显示有两次提交，分别为”first commit“和"second commit"
 
-![image-20230722175519040](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722175519040.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175639191.png)
 
-现在test文件内容为![image-20230722175639191](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722175639191.png)
+现在test文件内容为![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175937032.png)
 
 现在通过版本回退到第一次提交的文件中
 
-![image-20230722175937032](C:\Users\枯木逢春i\AppData\Roaming\Typora\typora-user-images\image-20230722175937032.png)
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722183619490.png)
 
 现在已经把test.txt文件回退到第一次提交的时候了，vi test.txt可看到就是第一次提交时的结果.。
 
