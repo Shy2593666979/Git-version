@@ -109,7 +109,7 @@ git reflog 这个指令可以看到已经删除的提交记录
 
 git log查看提交日志，显示有两次提交，分别为”first commit“和"second commit"
 
-![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175519040.png))
+![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175519040.png)
 
 现在test文件内容为![](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722175639191.png))
 
