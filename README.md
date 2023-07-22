@@ -12,7 +12,7 @@ Git是一个开源的[分布式](https://baike.baidu.com/item/分布式/19276232
 
 **根据自己电脑操作系统的版本进行选择对应的下载地址**
 
-![}%LG@IOCG4T7IIUF22DSC@P](C:\Users\枯木逢春i\Desktop\}%LG@IOCG4T7IIUF22DSC@P.png)
+[![}%LG@IOCG4T7IIUF22DSC@P](C:\Users\枯木逢春i\Desktop\}%LG@IOCG4T7IIUF22DSC@P.png)](https://github.com/Shy2593666979/Git-version/blob/main/image/image-20230722202013369.png)
 
 **ps：**下载Git是在GitHub平台下载的，需要科学上网
 
